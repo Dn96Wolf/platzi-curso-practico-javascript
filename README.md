@@ -8,3 +8,11 @@ Carpeta de ejercicios practicos en platzi
 
 - tercer paso : crear funciones 
 - cuarto paso : integrar HTML a JS
+
+
+## Taller #2: porcentajes y descuentos
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar la formula en Javascript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML

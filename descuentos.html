@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Porcentajes y descuentos</h1>
+        <p>este es el segundo taller del curso practico de java script</p>
+    </header>
+    <section >
+        <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+
+
+        <form action="">
+
+            <label for="InputProducto"></label>
+            <select name="" id="InputProducto">
+                <option value="Reloj">Reloj</option>
+                <option value="Pulsera">Pulsera</option>
+                <option value="Playera">Playera</option>
+                <option value="Camisa">Camisa</option>
+                <option value="Pantalon">Pantalon</option>
+            </select>
+            <button type="button" onclick="aplicarDesceunto()">Seleccionar</button>
+
+
+            <label for="InputPrecio">
+                Escribe el precio de tu producto
+                <input type="number" name="" id="InputPrecio"> 
+            </label>
+            <label for="InputDiscount">
+                Escribe el descuento de tu producto
+                <input type="number" name="" id="InputDiscount">
+            </label>
+
+            <button type="button" onclick="onClikButtonPriceDiscount()">Descuento</button>
+
+            <p id="result"></p>
+        </form>
+    
+    </section>
+
+
+    <br>
+
+    <section>
+
+        <form action="">
+            <label for="InputProducto"></label>
+            <select name="" id="InputProducto">
+                <option value="Reloj">Reloj</option>
+                <option value="Pulsera">Pulsera</option>
+                <option value="Playera">Playera</option>
+                <option value="Camisa">Camisa</option>
+                <option value="Pantalon">Pantalon</option>
+            </select>
+            <button type="button" onclick="aplicarDescuento()">Seleccionar</button>
+
+            <p id="precioProducto"></p>
+            <p id="descuentoProducto"></p>
+        </form>
+
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
