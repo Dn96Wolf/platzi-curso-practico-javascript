@@ -82,12 +82,7 @@ if(esPar(lista2.length)){
 codigo para una sola funcion */
 
 
-
-let x = [5,2,3,4,5,6,7,8];
-
-let nuevoX = [];
-
-
+/*
 for( let i = 0; i < x.length; i++ ){
 
 
@@ -142,3 +137,50 @@ const calcularLaMedia = () => {
     console.log(mediana);
 
 }
+
+*/
+
+
+const unaLista = [5,12,55,3,1];
+
+
+function multiplicacionDeDatos(lista){
+
+    let x;
+
+    for (let i = 0; i < 1; i++) {
+
+        x = lista[i];
+
+        for(let j = 1; j < lista.length; j++){
+
+            x *= lista[j];
+        }
+    }   
+
+    return(x);
+}
+
+
+const mediaGeometrica = (lista) => {
+
+    if(typeof lista != "object") return console.warn(`No se ingreso una lista de numeros`);
+
+    const datos = lista.length;
+
+    let argumento = multiplicacionDeDatos(lista);
+
+    const mediaGeo = Math.pow(argumento,(1/datos));
+
+
+    console.log(mediaGeo.toFixed(2));
+
+
+}
+
+
+//multiplicacionDeDatos(unaLista);
+
+
+
+mediaGeometrica(unaLista);
