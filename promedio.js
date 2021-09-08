@@ -20,13 +20,6 @@ const promedioLista1 = sumaLista1/lista1.length;
 
 const calcularMediaAritmetica = (lista)=>{
 
-    /*let sumaLista = 0;
-
-    for(let i =0; i < lista.length; i++){
-    
-        sumaLista = sumaLista + lista[i];
-    }   */
-/*
     const sumaLista = lista.reduce(
         function(valorAcumulado = 0, nuevoElemento){
             return valorAcumulado+nuevoElemento;
@@ -36,7 +29,7 @@ const calcularMediaAritmetica = (lista)=>{
 
     const promedioLista = sumaLista/lista.length;
 
-    return(promedioLista);
+    returnpromedioLista);
 }
 
 /*codigo de la mediana 
@@ -138,9 +131,11 @@ const calcularLaMedia = () => {
 
 }
 
-*/
 
 
+// mediaGeometrica 
+
+/*
 const unaLista = [5,12,55,3,1];
 
 
@@ -184,3 +179,5 @@ const mediaGeometrica = (lista) => {
 
 
 mediaGeometrica(unaLista);
+
+*/
