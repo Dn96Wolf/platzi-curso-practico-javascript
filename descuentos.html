@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./descuentos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,17 +17,6 @@
 
 
         <form action="">
-
-            <label for="InputProducto"></label>
-            <select name="" id="InputProducto">
-                <option value="Reloj">Reloj</option>
-                <option value="Pulsera">Pulsera</option>
-                <option value="Playera">Playera</option>
-                <option value="Camisa">Camisa</option>
-                <option value="Pantalon">Pantalon</option>
-            </select>
-            <button type="button" onclick="aplicarDesceunto()">Seleccionar</button>
-
 
             <label for="InputPrecio">
                 Escribe el precio de tu producto
@@ -47,22 +38,26 @@
     <br>
 
     <section>
+        <div class="cajonDescuentos">
+            <form action="" class="cajonDescuentos_form">
+                <label for="InputProducto">Selecciona el producto</label>
+                <select name="" id="InputProducto" class="cajonDesceuntos_form--select">
+                    <option value="Relog">Relog</option>
+                    <option value="Pulsera">Pulsera</option>
+                    <option value="Playera">Playera</option>
+                    <option value="Camisa">Camisa</option>
+                    <option value="Pantalon">Pantalon</option>
+                </select>
+                <button type="button" onclick="aplicarDescuento()">Seleccionar</button>
+                <div class="cajonDescuentos_info">
+                    <p id="precioProducto"></p>
+                    <img src="" alt="producto" id="imagenProducto">
+                    <p id="descuentoProducto"></p>
+                    <p id="precioFinal"></p>
 
-        <form action="">
-            <label for="InputProducto"></label>
-            <select name="" id="InputProducto">
-                <option value="Reloj">Reloj</option>
-                <option value="Pulsera">Pulsera</option>
-                <option value="Playera">Playera</option>
-                <option value="Camisa">Camisa</option>
-                <option value="Pantalon">Pantalon</option>
-            </select>
-            <button type="button" onclick="aplicarDescuento()">Seleccionar</button>
-
-            <p id="precioProducto"></p>
-            <p id="descuentoProducto"></p>
-        </form>
-
+                </div>
+            </form>
+        </div>
     </section>
     <script src="./descuentos.js"></script>
 </body>

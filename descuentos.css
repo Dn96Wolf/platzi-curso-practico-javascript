@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(171, 163, 163);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+
+.cajonDescuentos{
+    background: white;
+    width: 20%;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.cajonDescuentos_form{
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.cajonDesceuntos_form--select{
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    border: none;  
+    text-align: center;
+}
+
+.cajonDescuentos_form button{
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    background:gold;
+    border-radius: 5px;
+    border: none;  
+
+}
+
+.cajonDescuentos_info p{
+    margin: 10px;
+}
+
+.cajonDescuentos_info img{
+    margin: 20px;
+    background: white;
+    width: max-content;
+    border-radius: 10px;
+}
+
+
+#precioFinal{
+    background: gold;
+    border-radius: 5px;
+    color: black;
+    font-size: xx-large;
+}
